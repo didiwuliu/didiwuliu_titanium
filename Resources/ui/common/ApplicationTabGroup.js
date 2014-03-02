@@ -9,9 +9,12 @@ function ApplicationTabGroup(Window) {
 	//create module instance
 	var self = Ti.UI.createTabGroup();
 
+	//menus
+	var menus = Ti.App.menus;
+	
 	//create app tabs
-	var win1 = new Window(L('service')),
-		win2 = new Window(L('company'));
+	var win1 = new Window(menus[0]),
+		win2 = new Window(menus[1]);
 
 	var tab1 = Ti.UI.createTab({
 		title: L('service'),
