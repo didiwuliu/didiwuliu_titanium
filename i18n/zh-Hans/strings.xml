@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-	<string name="home">主页</string>	
-	<string name="settings">设置</string>
+	<string name="service">物流服务</string>
+	<string name="company">物流企业</string>
+	<string name="garden">园区</string>
+	<string name="information">资讯</string>
+	<string name="myLogistics">我的物流</string>
+	
 	<string name="openWindow">打开新窗口</string>
 	<string name="newWindow">新窗口</string>
 </resources>

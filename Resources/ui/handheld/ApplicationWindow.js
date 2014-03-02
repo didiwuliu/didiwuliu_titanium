@@ -1,3 +1,10 @@
+/**
+ * Copyright(c)2014,zhangchunsheng,www.zhangchunsheng.com.cn
+ * Version: 1.0
+ * Author: zhangchunsheng
+ * Date: 2014-02-12
+ * Description: 应用程序主窗口
+ */
 function ApplicationWindow(title) {
 	var self = Ti.UI.createWindow({
 		title:title,
