@@ -57,7 +57,7 @@ if (Ti.version < 1.8) {
     if (isTablet) {
         Window = require('ui/tablet/ApplicationWindow');
     } else {
-        Window = require('ui/handheld/ApplicationWindow');
+        Window = require('ui/handheld/ios/ApplicationWindow');
     }
 
     var ApplicationTabGroup = require('ui/common/ApplicationTabGroup');
