@@ -101,10 +101,16 @@ function ApplicationWindow(opts) {
 		button.addEventListener('click', function() {
 			//containingTab attribute must be set by parent tab group on
 			//the window for this work
-			self.containingTab.open(Ti.UI.createWindow({
-				title: L('newWindow'),
-				backgroundColor: 'white'
-			}));
+			var window = Ti.UI.createWindow({
+                title: L('newWindow'),
+                backgroundColor: 'white'
+            });
+            var RefreshControl = require('ui/common/view/RefreshControl');
+            var refreshControl = new RefreshControl({
+                
+            });
+            window.add(refreshControl.listView);
+			self.containingTab.open(window);
 		});
 	}
 

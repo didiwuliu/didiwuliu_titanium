@@ -47,6 +47,8 @@ if (Ti.version < 1.8) {
             ) >= 400;
         }
     }
+    
+    var DiDi = {};
 
     var config = require('config/config');
     Ti.App.menus = config.menus; //global
